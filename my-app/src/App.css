@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 2rem;
+}
+
+p {
+  margin: 2rem;
+}
+
+.allnumbers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+}
+
+.sixnumbers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.lucky input {
+ background-color: #B7DBE5;
+margin-top: 1rem;
+
+}
+
+input {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  border-radius: 50px;
+ border: 1px solid #B7DBE5;
+
+}
+
+.generate{
+  margin-top: 30px;
+  height: 3rem;
+  width: 20rem;
+  border: 2px solid #9FC3E8;
+  border-radius: 5px;
+  background-color: #B7DBE5;
+  color: white;
+}
+
+.reset {
+  height: 3rem;
+  width: 6rem;
+  margin-right: .5rem;
+  border: 2px solid #9FC3E8;
+  border-radius: 5px;
+  color: #B7DBE5;
+}
